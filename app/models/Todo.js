@@ -6,6 +6,7 @@ export class Todo {
     this.description = data.description
     this.creatorId = data.creatorId
     this.createdAt = new Date(data.createdAt)
+    this.completed = data.completed
   }
 
 
